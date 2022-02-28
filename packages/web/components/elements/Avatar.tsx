@@ -35,6 +35,10 @@ const StyledImage = styled(Image, {
   width: '100%',
   height: '100%',
   objectFit: 'cover',
+  opacity: '.48',
+  &:hover{
+      opacity: '1'
+   }
 })
 
 const StyledFallback = styled(Fallback, {
@@ -43,5 +47,5 @@ const StyledFallback = styled(Fallback, {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundColor: 'dodgerblue',
+  backgroundColor: 'white',
 })
